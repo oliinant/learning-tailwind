@@ -1,0 +1,7 @@
+.input-style {
+    @apply mb-[15px] border-[1px] border-[#d7d6d6] rounded-[10px] w-[300px] h-[45px] p-[10px] outline-none;
+}
+
+.input-label {
+    @apply absolute top-[50%] transform -translate-y-[calc(50%+8px)] left-[10px] select-none cursor-text;
+}
